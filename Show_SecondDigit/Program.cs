@@ -11,7 +11,7 @@ int FindSecondDigit (int number)
     return number;
 }
 
-int number = RandonDigit(1, 999);
+int number = RandonDigit(100, 999);
 Console.WriteLine(number);
 int SecondDigit = FindSecondDigit(number);
 Console.WriteLine(SecondDigit);
